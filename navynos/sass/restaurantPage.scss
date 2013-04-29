@@ -12,18 +12,41 @@
     width: 100%;
 }
 
+.restaurant-page__delivery-info, .restaurant-page__restaurant-info {
+    border-bottom: 1px dotted #8f7763;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.restaurant-page__delivery span, .restaurant-page__delivery a {
+    color: #8f7763;
+}
+
 .restaurant-page__delivery .button {
     border-radius: 5px;
     width: 100%;
     padding: 7px 0;
     margin-bottom: 15px;
+    color: white;
 }
 
-.delivery__address_requared {
+.delivery__address {
+    margin-bottom: 10px;
+}
+
+.requared, span.requared {
     color: #F4521A
 }
 
 .action-link {
     color: #795337;
     font-size: 11px;
+}
+
+.restaurant-page__delivery__share img, .restaurant-page__delivery__share span {
+    margin-right: 5px;
+}
+
+.restaurant-page__delivery__share span {
+    vertical-align: middle;
 }

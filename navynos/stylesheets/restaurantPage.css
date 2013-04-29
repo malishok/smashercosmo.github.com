@@ -683,20 +683,48 @@ input.index-form-search-input {
 }
 
 /* line 15, ../sass/restaurantPage.scss */
+.restaurant-page__delivery-info, .restaurant-page__restaurant-info {
+  border-bottom: 1px dotted #8f7763;
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+/* line 21, ../sass/restaurantPage.scss */
+.restaurant-page__delivery span, .restaurant-page__delivery a {
+  color: #8f7763;
+}
+
+/* line 25, ../sass/restaurantPage.scss */
 .restaurant-page__delivery .button {
   border-radius: 5px;
   width: 100%;
   padding: 7px 0;
   margin-bottom: 15px;
+  color: white;
 }
 
-/* line 22, ../sass/restaurantPage.scss */
-.delivery__address_requared {
+/* line 33, ../sass/restaurantPage.scss */
+.delivery__address {
+  margin-bottom: 10px;
+}
+
+/* line 37, ../sass/restaurantPage.scss */
+.requared, span.requared {
   color: #f4521a;
 }
 
-/* line 26, ../sass/restaurantPage.scss */
+/* line 41, ../sass/restaurantPage.scss */
 .action-link {
   color: #795337;
   font-size: 11px;
+}
+
+/* line 46, ../sass/restaurantPage.scss */
+.restaurant-page__delivery__share img, .restaurant-page__delivery__share span {
+  margin-right: 5px;
+}
+
+/* line 50, ../sass/restaurantPage.scss */
+.restaurant-page__delivery__share span {
+  vertical-align: middle;
 }
