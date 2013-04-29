@@ -731,66 +731,40 @@ input.index-form-search-input {
 }
 
 /* line 49, ../sass/makingOrder.scss */
-table {
+.your-order {
   border: 0;
   width: 100%;
+  padding: 0;
 }
 
-/* line 54, ../sass/makingOrder.scss */
-table, caption {
+/* line 55, ../sass/makingOrder.scss */
+.your-order, .your-order__restaurant {
   background: #FFFFD0;
   text-align: left;
 }
 
-/* line 59, ../sass/makingOrder.scss */
-caption h2 {
+/* line 60, ../sass/makingOrder.scss */
+.your-order__restaurant h2 {
   margin: 0;
   padding: 15px;
 }
 
-/* line 64, ../sass/makingOrder.scss */
+/* line 65, ../sass/makingOrder.scss */
 tr {
   vertical-align: top;
 }
 
-/* line 68, ../sass/makingOrder.scss */
+/* line 69, ../sass/makingOrder.scss */
 td {
-  padding: 0 0 15px 10px;
-}
-@media (max-width: 767px) {
-  /* line 68, ../sass/makingOrder.scss */
-  td {
-    border: none;
-    position: relative;
-    padding-left: 15px;
-  }
+  padding: 15px 10px;
 }
 
-@media (max-width: 767px) {
-  /* line 77, ../sass/makingOrder.scss */
-  td:before {
-    position: absolute;
-    top: 6px;
-    left: 6px;
-    width: 100%;
-    padding-right: 10px;
-    white-space: nowrap;
-  }
-}
-
-@media (max-width: 767px) {
-  /* line 88, ../sass/makingOrder.scss */
-  table, thead, tbody, th, td, tr {
-    display: block;
-  }
-}
-
-/* line 94, ../sass/makingOrder.scss */
+/* line 73, ../sass/makingOrder.scss */
 .your-order__item {
   border-bottom: 1px dotted #cccccc;
 }
 
-/* line 98, ../sass/makingOrder.scss */
+/* line 77, ../sass/makingOrder.scss */
 .your-order__item__index {
   border: 1px solid #cccccc;
   background: white;
@@ -800,19 +774,19 @@ td {
   vertical-align: middle;
 }
 
-/* line 107, ../sass/makingOrder.scss */
+/* line 86, ../sass/makingOrder.scss */
 .your-order__item__menu-item {
   margin: 0;
 }
 
-/* line 111, ../sass/makingOrder.scss */
+/* line 90, ../sass/makingOrder.scss */
 .your-order__item__menu-item__addition {
   color: #795337;
   font-style: italic;
   margin: 0;
 }
 
-/* line 117, ../sass/makingOrder.scss */
+/* line 96, ../sass/makingOrder.scss */
 .your-order__item__menu-item__delete {
   position: relative;
   display: inline-block;
@@ -826,55 +800,54 @@ td {
   line-height: 1.4;
 }
 
-/* line 130, ../sass/makingOrder.scss */
+/* line 109, ../sass/makingOrder.scss */
 .your-order .action-link {
   color: #5d5043;
 }
 
-/* line 134, ../sass/makingOrder.scss */
+/* line 113, ../sass/makingOrder.scss */
 .delivery-details__address span {
   font-family: 'Georgia', 'Times New Roman', sans-serif;
   font-size: 18px;
 }
 
-/* line 140, ../sass/makingOrder.scss */
+/* line 119, ../sass/makingOrder.scss */
 .delivery-details__contact__form input,
 .delivery-details__contact__form textarea {
-  width: 96%;
   border-radius: 0;
 }
 
-/* line 145, ../sass/makingOrder.scss */
-.required2 {
+/* line 123, ../sass/makingOrder.scss */
+.required {
   color: #F4521A;
 }
 
-/* line 149, ../sass/makingOrder.scss */
+/* line 127, ../sass/makingOrder.scss */
 label {
   color: #4A3E33;
 }
 
-/* line 153, ../sass/makingOrder.scss */
+/* line 131, ../sass/makingOrder.scss */
 .caption {
   position: relative;
   top: -10px;
   color: #7B6350;
 }
 
-/* line 159, ../sass/makingOrder.scss */
+/* line 137, ../sass/makingOrder.scss */
 .delivery-details__sum span {
   font-family: 'Georgia', 'Times New Roman', sans-serif;
   font-size: 18px;
 }
 
-/* line 164, ../sass/makingOrder.scss */
+/* line 142, ../sass/makingOrder.scss */
 .delivery-details__sum__total-amount {
   margin: 30px 0;
   border-bottom: 1px dotted #4A3E33;
   font-size: 0;
 }
 
-/* line 171, ../sass/makingOrder.scss */
+/* line 149, ../sass/makingOrder.scss */
 .delivery-details__sum__total-amount .total,
 .delivery-details__sum__total-amount .price {
   display: inline-block;
@@ -884,12 +857,13 @@ label {
   font-size: 24px;
 }
 
-/* line 179, ../sass/makingOrder.scss */
+/* line 157, ../sass/makingOrder.scss */
 .delivery-details__sum__total-amount .price {
   text-align: right;
 }
 
-/* line 183, ../sass/makingOrder.scss */
-.delivery-details .button_size {
-  width: 40%;
+/* line 161, ../sass/makingOrder.scss */
+.button {
+  padding: 4px 24px 7px;
+  font-size: 20px;
 }

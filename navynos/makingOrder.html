@@ -96,7 +96,7 @@
 		</div>
 		<div class="span8 column column_border_padding">
       <table class="your-order">
-        <caption><h2>Ваш заказ в <span class="your-order__restaurant-name">Самба Суши</span></h2></caption>
+        <caption class="your-order__restaurant"><h2>Ваш заказ в <span class="your-order__restaurant-name">Самба Суши</span></h2></caption>
         <tbody>
           <tr class="your-order__item">
             <td><span class="your-order__item__index">1</span></td>
@@ -107,6 +107,24 @@
                 <span class="your-order__item__menu-item__addition-item">больше васаби</span>,
                 <span class="your-order__item__menu-item__addition-item">больше имбиря</span>
               </p>
+            </td>
+            <td><span class="price">227.0 <span class="rub"></span></span></td>
+            <td><span class="action-link">изменить</span></td>
+            <td><spa class="your-order__item__menu-item__delete"n>X</span></td>
+          </tr>
+          <tr class="your-order__item">
+            <td><span class="your-order__item__index">2</span></td>
+            <td>
+              <p class="your-order__item__menu-item">Мисо суп с королевскими креветками</p>
+            </td>
+            <td><span class="price">174.0 <span class="rub"></span></span></td>
+            <td><span class="action-link">изменить</span></td>
+            <td><spa class="your-order__item__menu-item__delete"n>X</span></td>
+          </tr>
+          <tr class="your-order__item">
+            <td><span class="your-order__item__index">3</span></td>
+            <td>
+              <p class="your-order__item__menu-item">Курочка терияки</p>
             </td>
             <td><span class="price">150.0 <span class="rub"></span></span></td>
             <td><span class="action-link">изменить</span></td>
@@ -128,15 +146,15 @@
          <form action="#" method="post">
            <p>
              <label for="name">Имя<span class="required">&#42</span></label>
-             <input type="text" name="name">
+             <input class="span12" type="text" name="name">
            </p>
            <p>
              <label for="phone">Телефон для подтверждения заказа<span class="required">&#42</span></label>
-             <input type="text" name="phone">
+             <input class="span12" type="text" name="phone">
            </p>
            <p>
              <label for="order-comment">Комментарий к заказу</label>
-             <textarea name="order-comment" class="textarea" rows="7"></textarea>
+             <textarea class="span12" name="order-comment" class="textarea" rows="7"></textarea>
            </p>
            <span class="caption"><span class="required">&#42</span> Поля обязательные для заполнения</span>
          </form>
@@ -146,9 +164,9 @@
   	   <span>После заказа, в течении ближайшего времени с вами свяжется наш оператор для уточнения деталей заказа.</span>
   	   <div class="delivery-details__sum__total-amount">
   	     <span class="total">Всего:</span>
-  	     <span class="price">150.0 <span class="rub"></span></span>
+  	     <span class="price">700.0 <span class="rub"></span></span>
   	   </div>
-       <div><a class="button button_color_red button_text_stylish button_size" href="#">заказать</a></div>
+       <div><a class="button button_red button_text-stylish" href="#">заказать</a></div>
   	 </div>
    </div>
 	</div>
