@@ -7,7 +7,7 @@
     font-size: 0;
 }
 
-.making-order__title h1, .making-order__title a, .your-order__item_left-side, .your-order__item_right-side {
+.making-order__title h1, .making-order__title a {
     display: inline-block;
     position: relative;
     width: 100%;
@@ -21,7 +21,7 @@
       }
 }
 
-.making-order__title a, .your-order__item_right-side {
+.making-order__title a {
     text-align: right;
     
     @include respond-to(medium-screen) {
