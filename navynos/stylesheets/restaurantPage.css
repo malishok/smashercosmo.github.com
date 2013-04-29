@@ -672,37 +672,31 @@ input.index-form-search-input {
 
 /* ------------------------------------------------------ RESTAURANT PAGE START --------------------------------------------------- */
 /* line 6, ../sass/restaurantPage.scss */
-.restaurant-name, .restaurant-logo {
-  display: inline-block;
+.restaurant-name {
+  margin-top: 0;
 }
 
 /* line 10, ../sass/restaurantPage.scss */
-.restaurant-logo {
-  float: right;
-  position: relative;
-  right: 26.623932%;
-}
-@media (max-width: 767px) {
-  /* line 10, ../sass/restaurantPage.scss */
-  .restaurant-logo {
-    right: 0;
-  }
-}
-@media (max-width: 480px) {
-  /* line 10, ../sass/restaurantPage.scss */
-  .restaurant-logo {
-    right: 0;
-    margin-bottom: 15px;
-  }
-}
-
-/* line 25, ../sass/restaurantPage.scss */
-.restaurant-page__main-info__image img {
+.restaurant-page__image img {
   border-radius: 10px;
   width: 100%;
 }
 
-/* line 30, ../sass/restaurantPage.scss */
-.restaurant-page__main-info__delivery .button {
+/* line 15, ../sass/restaurantPage.scss */
+.restaurant-page__delivery .button {
   border-radius: 5px;
+  width: 100%;
+  padding: 7px 0;
+  margin-bottom: 15px;
+}
+
+/* line 22, ../sass/restaurantPage.scss */
+.delivery__address_requared {
+  color: #f4521a;
+}
+
+/* line 26, ../sass/restaurantPage.scss */
+.action-link {
+  color: #795337;
+  font-size: 11px;
 }
