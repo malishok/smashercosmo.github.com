@@ -43,10 +43,25 @@
     font-size: 11px;
 }
 
+.restaurant-page__delivery {
+    @include respond-to(medium-screen) {
+        padding-bottom: 70px;
+    }
+}
+
 .restaurant-page__delivery__share img, .restaurant-page__delivery__share span {
     margin-right: 5px;
 }
 
 .restaurant-page__delivery__share span {
     vertical-align: middle;
+}
+
+.restaurant-menu {
+    position: relative;
+}
+
+.menu-title {
+    position: absolute;
+    top: -70px;
 }

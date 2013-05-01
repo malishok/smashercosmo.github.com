@@ -719,12 +719,30 @@ input.index-form-search-input {
   font-size: 11px;
 }
 
-/* line 46, ../sass/restaurantPage.scss */
+@media (max-width: 767px) {
+  /* line 46, ../sass/restaurantPage.scss */
+  .restaurant-page__delivery {
+    padding-bottom: 70px;
+  }
+}
+
+/* line 52, ../sass/restaurantPage.scss */
 .restaurant-page__delivery__share img, .restaurant-page__delivery__share span {
   margin-right: 5px;
 }
 
-/* line 50, ../sass/restaurantPage.scss */
+/* line 56, ../sass/restaurantPage.scss */
 .restaurant-page__delivery__share span {
   vertical-align: middle;
+}
+
+/* line 60, ../sass/restaurantPage.scss */
+.restaurant-menu {
+  position: relative;
+}
+
+/* line 64, ../sass/restaurantPage.scss */
+.menu-title {
+  position: absolute;
+  top: -70px;
 }
