@@ -877,7 +877,7 @@ input.index-form-search-input {
 }
 
 /* line 69, ../sass/restaurantPage.scss */
-.button {
+.button_light-brown {
   padding: 1px 10px;
   border-radius: 5px;
   margin-bottom: 5px;
@@ -892,4 +892,10 @@ input.index-form-search-input {
 .column-list_list li a {
   text-decoration: none;
   border-bottom: 1px dotted #8f7763;
+}
+
+/* line 84, ../sass/restaurantPage.scss */
+.button_red {
+  padding: 4px 15px 7px;
+  font-size: 20px;
 }
