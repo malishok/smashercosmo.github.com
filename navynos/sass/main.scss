@@ -208,6 +208,26 @@ td {
     color: #5d5043;
 }
 
+.total-amount {
+    margin: 30px 0;
+    border-bottom: 1px dotted #4A3E33;
+    font-size: 0;
+    font-family: 'Georgia', 'Times New Roman', sans-serif;
+}
+
+.total-amount__total, 
+.total-amount__price, {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin-right: -100%;
+    font-size: 24px;
+}
+
+.total-amount__price {
+    text-align: right;
+}
+
 /* ------------------------------------------------------ BASE STYLES END ---------------------------------------------------- */
 
 /* ------------------------------------------------------ HEADER START ------------------------------------------------------- */

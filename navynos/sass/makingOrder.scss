@@ -70,28 +70,9 @@ label {
     color: #7B6350;
 }
 
-.delivery-details__sum span {
+.extra-info {
     font-family: 'Georgia', 'Times New Roman', sans-serif;
     font-size: 18px;
-}
-
-.delivery-details__sum__total-amount {
-    margin: 30px 0;
-    border-bottom: 1px dotted #4A3E33;
-    font-size: 0;
-}
-
-.delivery-details__sum__total-amount .total, 
-.delivery-details__sum__total-amount .price, {
-    display: inline-block;
-    position: relative;
-    width: 100%;
-    margin-right: -100%;
-    font-size: 24px;
-}
-
-.delivery-details__sum__total-amount .price {
-    text-align: right;
 }
 
 .button {
