@@ -65,3 +65,18 @@
     position: absolute;
     top: -70px;
 }
+
+.button {
+    padding: 1px 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.column-list_list li {
+    margin-bottom: 5px;
+}
+
+.column-list_list li a {
+    text-decoration: none;
+    border-bottom: 1px dotted $brownlighter;
+}
