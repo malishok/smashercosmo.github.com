@@ -231,17 +231,17 @@ a {
 }
 
 /* line 187, ../sass/main.scss */
-tr {
+.your-order tr {
   vertical-align: top;
 }
 
 /* line 191, ../sass/main.scss */
-.your-order__item__index, .your-order__item__menu-item, .price, .your-order__item__menu-item__delete {
+.your-order__item__index, .your-order__item__name, .your-order__item__price, .your-order__item__delete, .your-order__item__change {
   padding: 15px 0 15px 10px;
 }
 
 /* line 195, ../sass/main.scss */
-.your-order__item__menu-item__delete {
+.your-order__item__delete {
   padding-right: 10px;
 }
 
@@ -261,19 +261,19 @@ tr {
 }
 
 /* line 212, ../sass/main.scss */
-.your-order__item__menu-item p {
+.your-order__item__name p {
   margin: 0;
 }
 
 /* line 216, ../sass/main.scss */
-.your-order__item__menu-item__addition {
+.your-order__item__addition {
   color: #795337;
   font-style: italic;
   margin: 0;
 }
 
 /* line 222, ../sass/main.scss */
-.your-order__item__menu-item__delete span {
+.your-order__item__delete span {
   position: relative;
   display: inline-block;
   vertical-align: middle;
@@ -287,7 +287,7 @@ tr {
 }
 
 /* line 235, ../sass/main.scss */
-.your-order .action-link {
+.your-order__item__change .action-link {
   color: #5d5043;
 }
 
