@@ -895,7 +895,7 @@ input.index-form-search-input {
 }
 
 /* line 64, ../sass/restaurantPage.scss */
-.menu-title {
+.restaurant-menu__title {
   position: absolute;
   top: -70px;
 }
