@@ -188,15 +188,19 @@ tr {
     vertical-align: top;
 }
 
-td {
-    padding: 15px 10px;
+.your-order__item__index, .your-order__item__menu-item, .price,  .your-order__item__menu-item__delete {
+    padding: 15px 0 15px 10px;
+}
+
+.your-order__item__menu-item__delete {
+    padding-right: 10px;
 }
 
 .your-order__item {
     border-bottom: 1px dotted #cccccc;
 }
 
-.your-order__item__index {
+.your-order__item__index span{
     border: 1px solid #cccccc;
     background: white;
     padding: 3px 7px;
@@ -205,7 +209,7 @@ td {
     vertical-align: middle;
 }
 
-.your-order__item__menu-item {
+.your-order__item__menu-item p {
     margin: 0;
 }
 
@@ -215,7 +219,7 @@ td {
     margin: 0;
 }
 
-.your-order__item__menu-item__delete {
+.your-order__item__menu-item__delete span {
     position: relative;
     display: inline-block;
     vertical-align: middle;
