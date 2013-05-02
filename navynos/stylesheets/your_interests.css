@@ -744,7 +744,7 @@ input.index-form-search-input {
   border-radius: 10px;
   cursor: pointer;
   border: 1px solid #E73B23;
-  padding: 4px 14px;
+  padding: 2px 14px 5px;
   font-size: 20px;
   line-height: 20px;
   overflow: hidden;
@@ -932,4 +932,9 @@ input.index-form-search-input {
   font-size: 18px;
   text-align: center;
   margin-bottom: 0;
+}
+
+/* line 13, ../sass/your_interests.scss */
+.image-digest-section {
+  margin: 10px 0 30px;
 }
