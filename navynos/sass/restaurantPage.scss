@@ -81,7 +81,18 @@
     border-bottom: 1px dotted $brownlighter;
 }
 
+.digest-section__your-order {
+    border-top: 4px solid #000000;
+    padding-top: 0;
+}
+
 .button_red {
     padding: 4px 15px 7px;
     font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.digest-section__review {
+    margin-left: 30px;
+    border-top: 2px dotted #8F7763;
 }
