@@ -898,78 +898,118 @@ input.index-form-search-input {
 .restaurant-menu__title {
   position: absolute;
   top: -70px;
+  margin: 0;
 }
 
-/* line 69, ../sass/restaurantPage.scss */
+/* line 70, ../sass/restaurantPage.scss */
 .button_light-brown {
   padding: 1px 10px;
   border-radius: 5px;
   margin-bottom: 5px;
 }
 
-/* line 75, ../sass/restaurantPage.scss */
+/* line 76, ../sass/restaurantPage.scss */
 .column-list_list li {
   margin-bottom: 5px;
 }
 
-/* line 79, ../sass/restaurantPage.scss */
+/* line 80, ../sass/restaurantPage.scss */
 .column-list_list li a {
   text-decoration: none;
   border-bottom: 1px dotted #8f7763;
 }
 
-/* line 84, ../sass/restaurantPage.scss */
+/* line 85, ../sass/restaurantPage.scss */
 .digest-section__your-order {
   border-top: 4px solid #000000;
   padding-top: 0;
 }
 
-/* line 89, ../sass/restaurantPage.scss */
+/* line 90, ../sass/restaurantPage.scss */
 .button_red {
   padding: 4px 15px 7px;
   font-size: 20px;
   margin-bottom: 30px;
 }
 
-/* line 95, ../sass/restaurantPage.scss */
+/* line 96, ../sass/restaurantPage.scss */
 .digest-section__review {
   margin-left: 30px;
   border-top: 2px dotted #8F7763;
 }
 
-/* line 100, ../sass/restaurantPage.scss */
+/* line 101, ../sass/restaurantPage.scss */
 .leave-review {
   margin-bottom: 30px;
 }
 
-/* line 104, ../sass/restaurantPage.scss */
+/* line 105, ../sass/restaurantPage.scss */
 textarea {
   margin-bottom: 5px;
   border-radius: 0;
 }
 
-/* line 109, ../sass/restaurantPage.scss */
+/* line 110, ../sass/restaurantPage.scss */
 .restaurant-stars {
   margin-left: 5px;
 }
 
-/* line 113, ../sass/restaurantPage.scss */
+/* line 114, ../sass/restaurantPage.scss */
 .restaurant-stars span {
   cursor: pointer;
 }
 
-/* line 117, ../sass/restaurantPage.scss */
+/* line 118, ../sass/restaurantPage.scss */
 .button_brown {
   padding: 1px 10px;
   border-radius: 5px;
 }
 
-/* line 122, ../sass/restaurantPage.scss */
+/* line 123, ../sass/restaurantPage.scss */
 .read-review h2 {
   margin-bottom: 30px;
 }
 
-/* line 126, ../sass/restaurantPage.scss */
+/* line 127, ../sass/restaurantPage.scss */
 .read-review__text {
   color: #8f7763;
+}
+
+/* line 131, ../sass/restaurantPage.scss */
+.restaurant-menu__dishes {
+  width: 100%;
+  font-family: 'Georgia', 'Times New Roman', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* line 138, ../sass/restaurantPage.scss */
+.restaurant-menu__group-title {
+  text-align: left;
+  padding-left: 10px;
+  font-size: 24px;
+}
+
+/* line 144, ../sass/restaurantPage.scss */
+.restaurant-menu__item-image {
+  width: 9%;
+  padding: 15px 0 0 0;
+}
+
+/* line 149, ../sass/restaurantPage.scss */
+.restaurant-menu__item-price {
+  padding: 30px 0 0;
+  width: 9%;
+}
+
+/* line 154, ../sass/restaurantPage.scss */
+.restaurant-menu__item, .restaurant-menu__item-price {
+  vertical-align: bottom;
+  border-bottom: 1px dotted #8f7763;
+}
+
+/* line 159, ../sass/restaurantPage.scss */
+.restaurant-menu__item {
+  width: 80%;
+  padding: 30px 0 0 10px;
 }

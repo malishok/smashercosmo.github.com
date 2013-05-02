@@ -64,6 +64,7 @@
 .restaurant-menu__title {
     position: absolute;
     top: -70px;
+    margin: 0;
 }
 
 .button_light-brown {
@@ -125,4 +126,37 @@ textarea {
 
 .read-review__text {
     color: #8f7763;
+}
+
+.restaurant-menu__dishes {
+    width: 100%;
+    font-family: 'Georgia', 'Times New Roman', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.restaurant-menu__group-title {
+    text-align: left;
+    padding-left: 10px;
+    font-size: 24px;
+}
+
+.restaurant-menu__item-image {
+    width: 9%;
+    padding: 15px 0 0 0;
+}
+
+.restaurant-menu__item-price {
+    padding: 30px 0 0;
+    width: 9%;
+}
+
+.restaurant-menu__item, .restaurant-menu__item-price {
+    vertical-align: bottom;
+    border-bottom: 1px dotted $brownlighter;
+}
+
+.restaurant-menu__item {
+    width: 80%;
+    padding: 30px 0 0 10px;
 }
