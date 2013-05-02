@@ -130,15 +130,14 @@ textarea {
 
 .restaurant-menu__dishes {
     width: 100%;
-    font-family: 'Georgia', 'Times New Roman', sans-serif;
-    font-size: 14px;
-    font-weight: bold;
+    margin-bottom: 40px;
 }
 
 .restaurant-menu__group-title {
     text-align: left;
     padding-left: 10px;
     font-size: 24px;
+    font-family: 'Georgia', 'Times New Roman', sans-serif;
 }
 
 .restaurant-menu__item-image {
@@ -154,9 +153,19 @@ textarea {
 .restaurant-menu__item, .restaurant-menu__item-price {
     vertical-align: bottom;
     border-bottom: 1px dotted $brownlighter;
+    font-family: 'Georgia', 'Times New Roman', sans-serif;
+    font-size: 14px;
+    font-weight: bold;
 }
 
 .restaurant-menu__item {
     width: 80%;
     padding: 30px 0 0 10px;
+}
+
+.restaurant-menu__item-ingredients {
+    padding: 5px 10px 0 10px;
+    font-style: italic;
+    color: $brownlighter;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }

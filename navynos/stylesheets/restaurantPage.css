@@ -978,38 +978,48 @@ textarea {
 /* line 131, ../sass/restaurantPage.scss */
 .restaurant-menu__dishes {
   width: 100%;
-  font-family: 'Georgia', 'Times New Roman', sans-serif;
-  font-size: 14px;
-  font-weight: bold;
+  margin-bottom: 40px;
 }
 
-/* line 138, ../sass/restaurantPage.scss */
+/* line 136, ../sass/restaurantPage.scss */
 .restaurant-menu__group-title {
   text-align: left;
   padding-left: 10px;
   font-size: 24px;
+  font-family: 'Georgia', 'Times New Roman', sans-serif;
 }
 
-/* line 144, ../sass/restaurantPage.scss */
+/* line 143, ../sass/restaurantPage.scss */
 .restaurant-menu__item-image {
   width: 9%;
   padding: 15px 0 0 0;
 }
 
-/* line 149, ../sass/restaurantPage.scss */
+/* line 148, ../sass/restaurantPage.scss */
 .restaurant-menu__item-price {
   padding: 30px 0 0;
   width: 9%;
 }
 
-/* line 154, ../sass/restaurantPage.scss */
+/* line 153, ../sass/restaurantPage.scss */
 .restaurant-menu__item, .restaurant-menu__item-price {
   vertical-align: bottom;
   border-bottom: 1px dotted #8f7763;
+  font-family: 'Georgia', 'Times New Roman', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
 }
 
-/* line 159, ../sass/restaurantPage.scss */
+/* line 161, ../sass/restaurantPage.scss */
 .restaurant-menu__item {
   width: 80%;
   padding: 30px 0 0 10px;
+}
+
+/* line 166, ../sass/restaurantPage.scss */
+.restaurant-menu__item-ingredients {
+  padding: 5px 10px 0 10px;
+  font-style: italic;
+  color: #8f7763;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
