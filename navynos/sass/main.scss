@@ -160,19 +160,23 @@ a {
     padding: 15px;
 }
 
-tr {
+.your-order tr {
     vertical-align: top;
 }
 
-td {
-    padding: 15px 10px;
+.your-order__item__index, .your-order__item__name, .your-order__item__price,  .your-order__item__delete, .your-order__item__change {
+    padding: 15px 0 15px 10px;
+}
+
+.your-order__item__delete {
+    padding-right: 10px;
 }
 
 .your-order__item {
     border-bottom: 1px dotted #cccccc;
 }
 
-.your-order__item__index {
+.your-order__item__index span{
     border: 1px solid #cccccc;
     background: white;
     padding: 3px 7px;
@@ -181,17 +185,17 @@ td {
     vertical-align: middle;
 }
 
-.your-order__item__menu-item {
+.your-order__item__name p {
     margin: 0;
 }
 
-.your-order__item__menu-item__addition {
+.your-order__item__addition {
     color: #795337;
     font-style: italic;
     margin: 0;
 }
 
-.your-order__item__menu-item__delete {
+.your-order__item__delete span {
     position: relative;
     display: inline-block;
     vertical-align: middle;
@@ -204,7 +208,7 @@ td {
     line-height: 1.4;
 }
 
-.your-order .action-link {
+.your-order__item__change .action-link {
     color: #5d5043;
 }
 
