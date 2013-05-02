@@ -96,3 +96,33 @@
     margin-left: 30px;
     border-top: 2px dotted #8F7763;
 }
+
+.leave-review {
+    margin-bottom: 30px;
+}
+
+textarea {
+    margin-bottom: 5px;
+    border-radius: 0;
+}
+
+.restaurant-stars {
+    margin-left: 5px;
+}
+
+.restaurant-stars span {
+    cursor: pointer;
+}
+
+.button_brown {
+    padding: 1px 10px;
+    border-radius: 5px;
+}
+
+.read-review h2 {
+    margin-bottom: 30px;
+}
+
+.read-review__text {
+    color: #8f7763;
+}

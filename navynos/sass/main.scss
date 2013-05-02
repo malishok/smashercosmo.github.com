@@ -140,6 +140,10 @@ a {
     background: #4A3E33;
 }
 
+.button_brown {
+    background: #7B6350;
+}
+
 .button_light-brown {
     background: #c6af99;
 }
@@ -245,6 +249,22 @@ td {
 
 .total-amount__price {
     text-align: right;
+}
+
+.restaurant-stars span {
+    width: 13px;
+    height: 12px;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.restaurant-stars_point {
+    background: url('../img/tmp/rest-star.png') no-repeat 0 -12px;
+}
+
+.restaurant-stars_zero {
+    background: url('../img/tmp/rest-star.png') no-repeat 0 0;
 }
 
 /* ------------------------------------------------------ BASE STYLES END ---------------------------------------------------- */
