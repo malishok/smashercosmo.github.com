@@ -442,7 +442,7 @@ a {
 }
 
 /* line 364, ../sass/main.scss */
-.page-sections_receipt div, .connection-page div {
+.page-sections_receipt div, .connection-page div, .franchising-page div {
   margin-bottom: 30px;
 }
 
@@ -961,36 +961,40 @@ input.index-form-search-input {
 }
 
 /* ------------------------------------------------------ RESTAURANT PAGE START --------------------------------------------------- */
-/* line 6, ../sass/connection-page.scss */
-.connection-page {
-  font-family: 'Times New Roman', sans-serif;
+/* line 6, ../sass/franchising-page.scss */
+.franchising-page ul {
+  padding-right: 20px;
 }
 
-/* line 10, ../sass/connection-page.scss */
-.connection-page .row-fluid {
-  margin: 0;
-}
-
-/* line 14, ../sass/connection-page.scss */
-.connection-terms {
-  padding-right: 30px;
-}
-
-/* line 18, ../sass/connection-page.scss */
-.connection-terms ol {
-  margin-bottom: 30px;
-}
-
-/* line 22, ../sass/connection-page.scss */
-.connection-terms label {
-  margin-bottom: 20px;
-}
-
-/* line 26, ../sass/connection-page.scss */
-.connection-terms li {
-  margin: 0 0 10px 25px;
-  list-style: decimal;
+/* line 10, ../sass/franchising-page.scss */
+.franchising-page li {
+  margin-bottom: 10px;
   font-size: 18px;
   color: #444342;
   line-height: 1.2;
+}
+
+/* line 17, ../sass/franchising-page.scss */
+.franchising-page {
+  font-family: 'Times New Roman', sans-serif;
+}
+
+/* line 21, ../sass/franchising-page.scss */
+.franchising-page .row-fluid {
+  margin: 0;
+}
+
+/* line 25, ../sass/franchising-page.scss */
+.we-provide label {
+  margin-bottom: 20px;
+}
+
+/* line 29, ../sass/franchising-page.scss */
+.we-provide li {
+  list-style: circle;
+}
+
+/* line 33, ../sass/franchising-page.scss */
+.we-provide li {
+  margin-left: 20px;
 }
