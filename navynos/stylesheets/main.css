@@ -442,7 +442,7 @@ a {
 }
 
 /* line 364, ../sass/main.scss */
-.page-sections_receipt div {
+.page-sections_receipt div, .connection-page div {
   margin-bottom: 30px;
 }
 
@@ -456,7 +456,7 @@ a {
 
 /* line 375, ../sass/main.scss */
 .footnote {
-  font-size: 14px;
+  font-size: 18px;
 }
 
 /* ------------------------------------------------------ BASE STYLES END ---------------------------------------------------- */

@@ -442,7 +442,7 @@ a {
 }
 
 /* line 364, ../sass/main.scss */
-.page-sections_receipt div {
+.page-sections_receipt div, .connection-page div {
   margin-bottom: 30px;
 }
 
@@ -456,7 +456,7 @@ a {
 
 /* line 375, ../sass/main.scss */
 .footnote {
-  font-size: 14px;
+  font-size: 18px;
 }
 
 /* ------------------------------------------------------ BASE STYLES END ---------------------------------------------------- */
@@ -956,64 +956,36 @@ input.index-form-search-input {
 }
 
 /* ------------------------------------------------------ RESTAURANT PAGE START --------------------------------------------------- */
-/* line 6, ../sass/receipt.scss */
-.social-likes p {
+/* line 6, ../sass/connection-page.scss */
+.connection-page {
+  font-family: 'Times New Roman', sans-serif;
+}
+
+/* line 10, ../sass/connection-page.scss */
+.connection-page .row-fluid {
+  margin: 0;
+}
+
+/* line 14, ../sass/connection-page.scss */
+.connection-terms {
+  padding-right: 30px;
+}
+
+/* line 18, ../sass/connection-page.scss */
+.connection-terms ol {
+  margin-bottom: 30px;
+}
+
+/* line 22, ../sass/connection-page.scss */
+.connection-terms label {
   margin-bottom: 20px;
 }
 
-/* line 10, ../sass/receipt.scss */
-.social-likes img {
-  display: inline-block;
-  margin-right: 10px;
-}
-
-/* line 15, ../sass/receipt.scss */
-.order-number {
-  font-size: 36px;
-  font-family: 'Times New Roman', sans-serif;
-  font-weight: bold;
-  padding-bottom: 30px;
-  margin: 0;
-  line-height: 1;
-}
-
-/* line 24, ../sass/receipt.scss */
-.your-order, .your-order__restaurant {
-  background: transparent;
-}
-
-/* line 28, ../sass/receipt.scss */
-.your-order {
-  border-bottom: 4px solid;
-  margin-top: 10px;
-}
-
-/* line 33, ../sass/receipt.scss */
-.your-order__restaurant {
-  border-top: 2px solid;
-  padding: 15px 10px 0 10px;
-}
-
-/* line 38, ../sass/receipt.scss */
-.your-order__item__index, .amount-counter, .your-order__item__name, .your-order__item__price, .your-order__item__delete, .your-order__item__change {
-  padding-bottom: 0;
-}
-
-/* line 42, ../sass/receipt.scss */
-.your-order__item__index span {
-  border: none;
-  background: transparent;
-  padding: 0;
+/* line 26, ../sass/connection-page.scss */
+.connection-terms li {
+  margin: 0 0 10px 25px;
+  list-style: decimal;
+  font-size: 18px;
+  color: #444342;
   line-height: 1.2;
-  vertical-align: middle;
-}
-
-/* line 50, ../sass/receipt.scss */
-.your-order__item__index, .amount-counter {
-  text-align: center;
-}
-
-/* line 54, ../sass/receipt.scss */
-.your-order tr:last-child td {
-  padding-bottom: 15px;
 }
