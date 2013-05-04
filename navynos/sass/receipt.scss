@@ -7,4 +7,41 @@
     font-size: 36px;
     font-family: 'Times New Roman', sans-serif;
     font-weight: bold;
+    padding-bottom: 30px;
+    margin: 0;
+    line-height: 1;
+}
+
+.your-order, .your-order__restaurant {
+    background: transparent;
+}
+
+.your-order {
+    border-bottom: 4px solid;
+    margin-top: 10px;
+}
+
+.your-order__restaurant {
+    border-top: 2px solid;
+    padding: 15px 10px 0 10px;
+}
+
+.your-order__item__index, .amount-counter, .your-order__item__name, .your-order__item__price,  .your-order__item__delete, .your-order__item__change {
+    padding-bottom: 0;
+}
+
+.your-order__item__index span{
+    border: none;
+    background: transparent;
+    padding: 0;
+    line-height: 1.2;
+    vertical-align: middle;
+}
+
+.your-order__item__index, .amount-counter {
+    text-align: center;
+}
+
+.your-order tr:last-child td {
+    padding-bottom: 15px;
 }
