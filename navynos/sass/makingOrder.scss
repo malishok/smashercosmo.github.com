@@ -3,6 +3,10 @@
 
 /* ------------------------------------------------------ MAKINGORDER PAGE START --------------------------------------------------- */
 
+.column_margin-none {
+    margin-bottom: 0;
+}
+
 .making-order__title {
     font-size: 0;
 }
@@ -78,4 +82,5 @@ label {
 .button {
     padding: 4px 24px 7px;
     font-size: 20px;
+    border-radius: 10px;
 }

@@ -962,11 +962,16 @@ input.index-form-search-input {
 
 /* ------------------------------------------------------ MAKINGORDER PAGE START --------------------------------------------------- */
 /* line 6, ../sass/makingOrder.scss */
+.column_margin-none {
+  margin-bottom: 0;
+}
+
+/* line 10, ../sass/makingOrder.scss */
 .making-order__title {
   font-size: 0;
 }
 
-/* line 10, ../sass/makingOrder.scss */
+/* line 14, ../sass/makingOrder.scss */
 .making-order__title h1, .making-order__title a {
   display: inline-block;
   position: relative;
@@ -974,89 +979,90 @@ input.index-form-search-input {
   margin-right: -100%;
 }
 @media (max-width: 767px) {
-  /* line 10, ../sass/makingOrder.scss */
+  /* line 14, ../sass/makingOrder.scss */
   .making-order__title h1, .making-order__title a {
     display: block;
   }
 }
 @media (max-width: 480px) {
-  /* line 10, ../sass/makingOrder.scss */
+  /* line 14, ../sass/makingOrder.scss */
   .making-order__title h1, .making-order__title a {
     display: block;
   }
 }
 
-/* line 24, ../sass/makingOrder.scss */
+/* line 28, ../sass/makingOrder.scss */
 .making-order__title a {
   text-align: right;
 }
 @media (max-width: 767px) {
-  /* line 24, ../sass/makingOrder.scss */
+  /* line 28, ../sass/makingOrder.scss */
   .making-order__title a {
     text-align: left;
   }
 }
 @media (max-width: 480px) {
-  /* line 24, ../sass/makingOrder.scss */
+  /* line 28, ../sass/makingOrder.scss */
   .making-order__title a {
     text-align: left;
   }
 }
 
-/* line 35, ../sass/makingOrder.scss */
+/* line 39, ../sass/makingOrder.scss */
 .back-to-menu_font {
   font-family: 'Georgia', 'Times New Roman', sans-serif;
   font-size: 18px;
 }
 
-/* line 40, ../sass/makingOrder.scss */
+/* line 44, ../sass/makingOrder.scss */
 .making-order__image img {
   width: 100%;
   margin-top: 10px;
 }
 
-/* line 45, ../sass/makingOrder.scss */
+/* line 49, ../sass/makingOrder.scss */
 .making-order__image img:first-child {
   margin-top: 0;
 }
 
-/* line 49, ../sass/makingOrder.scss */
+/* line 53, ../sass/makingOrder.scss */
 .delivery-details__address span {
   font-family: 'Georgia', 'Times New Roman', sans-serif;
   font-size: 18px;
 }
 
-/* line 55, ../sass/makingOrder.scss */
+/* line 59, ../sass/makingOrder.scss */
 .delivery-details__contact__form input,
 .delivery-details__contact__form textarea {
   border-radius: 0;
 }
 
-/* line 59, ../sass/makingOrder.scss */
+/* line 63, ../sass/makingOrder.scss */
 .required {
   color: #F4521A;
 }
 
-/* line 63, ../sass/makingOrder.scss */
+/* line 67, ../sass/makingOrder.scss */
 label {
   color: #4A3E33;
 }
 
-/* line 67, ../sass/makingOrder.scss */
+/* line 71, ../sass/makingOrder.scss */
 .caption {
   position: relative;
   top: -10px;
   color: #7B6350;
 }
 
-/* line 73, ../sass/makingOrder.scss */
+/* line 77, ../sass/makingOrder.scss */
 .extra-info {
   font-family: 'Georgia', 'Times New Roman', sans-serif;
   font-size: 18px;
 }
 
-/* line 78, ../sass/makingOrder.scss */
+/* line 82, ../sass/makingOrder.scss */
 .button {
   padding: 4px 24px 7px;
   font-size: 20px;
+  border-radius: 10px;
 }
