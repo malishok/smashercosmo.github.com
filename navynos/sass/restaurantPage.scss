@@ -7,15 +7,18 @@
     margin-top: 0;
 }
 
-.restaurant-page__image img {
+.restaurant-page .promo-banner-image {
     border-radius: 10px;
-    width: 100%;
 }
 
 .restaurant-page__delivery-info, .restaurant-page__restaurant-info {
     border-bottom: 1px dotted #8f7763;
     padding-bottom: 15px;
     margin-bottom: 15px;
+}
+
+.restaurant-page__delivery-info p:last-child, .restaurant-page__restaurant-info p:last-child {
+    margin-bottom: 0;
 }
 
 .restaurant-page__delivery span, .restaurant-page__delivery a {
@@ -70,16 +73,19 @@
 .button_light-brown {
     padding: 1px 10px;
     border-radius: 5px;
-    margin-bottom: 5px;
 }
 
 .column-list_list li {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 .column-list_list li a {
     text-decoration: none;
     border-bottom: 1px dotted $brownlighter;
+}
+
+.column-list_list li:first-child a {
+    border-bottom: 0;
 }
 
 .digest-section__your-order {

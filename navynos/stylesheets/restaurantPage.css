@@ -967,24 +967,28 @@ input.index-form-search-input {
 }
 
 /* line 10, ../sass/restaurantPage.scss */
-.restaurant-page__image img {
+.restaurant-page .promo-banner-image {
   border-radius: 10px;
-  width: 100%;
 }
 
-/* line 15, ../sass/restaurantPage.scss */
+/* line 14, ../sass/restaurantPage.scss */
 .restaurant-page__delivery-info, .restaurant-page__restaurant-info {
   border-bottom: 1px dotted #8f7763;
   padding-bottom: 15px;
   margin-bottom: 15px;
 }
 
-/* line 21, ../sass/restaurantPage.scss */
+/* line 20, ../sass/restaurantPage.scss */
+.restaurant-page__delivery-info p:last-child, .restaurant-page__restaurant-info p:last-child {
+  margin-bottom: 0;
+}
+
+/* line 24, ../sass/restaurantPage.scss */
 .restaurant-page__delivery span, .restaurant-page__delivery a {
   color: #8f7763;
 }
 
-/* line 25, ../sass/restaurantPage.scss */
+/* line 28, ../sass/restaurantPage.scss */
 .restaurant-page__delivery .button {
   border-radius: 5px;
   width: 100%;
@@ -993,132 +997,136 @@ input.index-form-search-input {
   color: white;
 }
 
-/* line 33, ../sass/restaurantPage.scss */
+/* line 36, ../sass/restaurantPage.scss */
 .delivery__address {
   margin-bottom: 10px;
 }
 
-/* line 37, ../sass/restaurantPage.scss */
+/* line 40, ../sass/restaurantPage.scss */
 .requared, span.requared {
   color: #f4521a;
 }
 
-/* line 41, ../sass/restaurantPage.scss */
+/* line 44, ../sass/restaurantPage.scss */
 .action-link {
   color: #795337;
   font-size: 11px;
 }
 
 @media (max-width: 767px) {
-  /* line 46, ../sass/restaurantPage.scss */
+  /* line 49, ../sass/restaurantPage.scss */
   .restaurant-page__delivery {
     padding-bottom: 70px;
   }
 }
 
-/* line 52, ../sass/restaurantPage.scss */
+/* line 55, ../sass/restaurantPage.scss */
 .restaurant-page__delivery__share img, .restaurant-page__delivery__share span {
   margin-right: 5px;
 }
 
-/* line 56, ../sass/restaurantPage.scss */
+/* line 59, ../sass/restaurantPage.scss */
 .restaurant-page__delivery__share span {
   vertical-align: middle;
 }
 
-/* line 60, ../sass/restaurantPage.scss */
+/* line 63, ../sass/restaurantPage.scss */
 .restaurant-menu {
   position: relative;
 }
 
-/* line 64, ../sass/restaurantPage.scss */
+/* line 67, ../sass/restaurantPage.scss */
 .restaurant-menu__title {
   position: absolute;
   top: -70px;
   margin: 0;
 }
 
-/* line 70, ../sass/restaurantPage.scss */
+/* line 73, ../sass/restaurantPage.scss */
 .button_light-brown {
   padding: 1px 10px;
   border-radius: 5px;
-  margin-bottom: 5px;
 }
 
-/* line 76, ../sass/restaurantPage.scss */
+/* line 78, ../sass/restaurantPage.scss */
 .column-list_list li {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
-/* line 80, ../sass/restaurantPage.scss */
+/* line 82, ../sass/restaurantPage.scss */
 .column-list_list li a {
   text-decoration: none;
   border-bottom: 1px dotted #8f7763;
 }
 
-/* line 85, ../sass/restaurantPage.scss */
+/* line 87, ../sass/restaurantPage.scss */
+.column-list_list li:first-child a {
+  border-bottom: 0;
+}
+
+/* line 91, ../sass/restaurantPage.scss */
 .digest-section__your-order {
   border-top: 4px solid #000000;
   padding-top: 0;
 }
 
-/* line 90, ../sass/restaurantPage.scss */
+/* line 96, ../sass/restaurantPage.scss */
 .button_red {
   padding: 4px 15px 7px;
   font-size: 20px;
   margin-bottom: 30px;
 }
 
-/* line 96, ../sass/restaurantPage.scss */
+/* line 102, ../sass/restaurantPage.scss */
 .digest-section__review {
   margin-left: 30px;
   border-top: 2px dotted #8F7763;
 }
 
-/* line 101, ../sass/restaurantPage.scss */
+/* line 107, ../sass/restaurantPage.scss */
 .leave-review {
   margin-bottom: 30px;
 }
 
-/* line 105, ../sass/restaurantPage.scss */
+/* line 111, ../sass/restaurantPage.scss */
 textarea {
   margin-bottom: 5px;
   border-radius: 0;
 }
 
-/* line 110, ../sass/restaurantPage.scss */
+/* line 116, ../sass/restaurantPage.scss */
 .restaurant-stars {
   margin-left: 5px;
 }
 
-/* line 114, ../sass/restaurantPage.scss */
+/* line 120, ../sass/restaurantPage.scss */
 .restaurant-stars span {
   cursor: pointer;
 }
 
-/* line 118, ../sass/restaurantPage.scss */
+/* line 124, ../sass/restaurantPage.scss */
 .button_brown {
   padding: 1px 10px;
   border-radius: 5px;
 }
 
-/* line 123, ../sass/restaurantPage.scss */
+/* line 129, ../sass/restaurantPage.scss */
 .read-review h2 {
   margin-bottom: 30px;
 }
 
-/* line 127, ../sass/restaurantPage.scss */
+/* line 133, ../sass/restaurantPage.scss */
 .read-review__text {
   color: #8f7763;
 }
 
-/* line 131, ../sass/restaurantPage.scss */
+/* line 137, ../sass/restaurantPage.scss */
 .restaurant-menu__dishes {
   width: 100%;
   margin-bottom: 40px;
 }
 
-/* line 136, ../sass/restaurantPage.scss */
+/* line 142, ../sass/restaurantPage.scss */
 .restaurant-menu__group-title {
   text-align: left;
   padding-left: 10px;
@@ -1126,20 +1134,20 @@ textarea {
   font-family: 'Georgia', 'Times New Roman', sans-serif;
 }
 
-/* line 143, ../sass/restaurantPage.scss */
+/* line 149, ../sass/restaurantPage.scss */
 .restaurant-menu__item-image {
   width: 9%;
   padding: 15px 0 0 0;
   vertical-align: bottom;
 }
 
-/* line 149, ../sass/restaurantPage.scss */
+/* line 155, ../sass/restaurantPage.scss */
 .restaurant-menu__item-price {
   padding: 30px 0 0;
   width: 9%;
 }
 
-/* line 154, ../sass/restaurantPage.scss */
+/* line 160, ../sass/restaurantPage.scss */
 .restaurant-menu__item, .restaurant-menu__item-price {
   vertical-align: bottom;
   border-bottom: 1px dotted #8f7763;
@@ -1148,13 +1156,13 @@ textarea {
   font-weight: bold;
 }
 
-/* line 162, ../sass/restaurantPage.scss */
+/* line 168, ../sass/restaurantPage.scss */
 .restaurant-menu__item {
   width: 80%;
   padding: 30px 0 0 10px;
 }
 
-/* line 167, ../sass/restaurantPage.scss */
+/* line 173, ../sass/restaurantPage.scss */
 .restaurant-menu__item-ingredients {
   padding: 5px 10px 0 10px;
   font-style: italic;
