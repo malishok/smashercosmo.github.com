@@ -91,50 +91,50 @@ a {
 }
 
 /* line 76, ../sass/main.scss */
+.column_border-dotted {
+  border-top: 2px dotted #B99F87;
+}
+
+/* line 80, ../sass/main.scss */
+.column_border-none {
+  border: 0;
+  padding-top: 24px;
+}
+
+/* line 85, ../sass/main.scss */
+.column_padding-none {
+  padding-top: 0;
+}
+
+/* line 89, ../sass/main.scss */
 .action-link {
   border-bottom: 1px dotted;
   cursor: pointer;
 }
 
-/* line 81, ../sass/main.scss */
+/* line 94, ../sass/main.scss */
 .main {
   padding-bottom: 30px;
 }
 
-/* line 85, ../sass/main.scss */
+/* line 98, ../sass/main.scss */
 .page-sections {
   margin-bottom: 30px;
 }
 
-/* line 89, ../sass/main.scss */
+/* line 102, ../sass/main.scss */
 .price {
   white-space: nowrap;
 }
 
-/* line 93, ../sass/main.scss */
-.dot {
+/* line 106, ../sass/main.scss */
+.bullet {
   border: 3px solid white;
   border-radius: 50px;
   font-size: 0;
   line-height: 1;
   vertical-align: middle;
   margin-right: 4px;
-}
-
-/* line 102, ../sass/main.scss */
-.column_border_style {
-  border-top: 2px dotted #B99F87;
-}
-
-/* line 106, ../sass/main.scss */
-.column_border {
-  border: 0;
-  padding-top: 24px;
-}
-
-/* line 111, ../sass/main.scss */
-.column_border_padding {
-  padding-top: 0;
 }
 
 /* line 115, ../sass/main.scss */
@@ -165,13 +165,13 @@ a {
 }
 
 /* line 139, ../sass/main.scss */
-.button_dark-brown {
-  background: #4A3E33;
+.button_brown {
+  background: #7B6350;
 }
 
 /* line 143, ../sass/main.scss */
-.button_brown {
-  background: #7B6350;
+.button_dark-brown {
+  background: #4A3E33;
 }
 
 /* line 147, ../sass/main.scss */
@@ -212,6 +212,122 @@ a {
 }
 
 /* line 171, ../sass/main.scss */
+.restaurant-stars span {
+  width: 13px;
+  height: 12px;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+/* line 179, ../sass/main.scss */
+.restaurant-stars_zero {
+  background: url("../img/tmp/rest-star.png") no-repeat 0 0;
+}
+
+/* line 183, ../sass/main.scss */
+.restaurant-stars_point {
+  background: url("../img/tmp/rest-star.png") no-repeat 0 -12px;
+}
+
+/* line 187, ../sass/main.scss */
+.restaurant-list__item {
+  padding-bottom: 15px;
+  margin-bottom: 15px;
+  border-bottom: 1px dotted #8f7763;
+}
+
+/* line 193, ../sass/main.scss */
+.restaurant-list__item_promo .restaurant-list__item__content {
+  position: relative;
+  border-left: 5px solid #F4521A;
+  padding: 15px 0 15px 15px;
+}
+
+/* line 199, ../sass/main.scss */
+.restaurant-list__item__content {
+  padding: 0 0 0 5px;
+}
+
+/* line 203, ../sass/main.scss */
+.restaurant-list__item__basic {
+  position: relative;
+  margin-bottom: 35px;
+}
+
+/* line 208, ../sass/main.scss */
+.restaurant-list__item__basic__name {
+  font-family: 'Georgia', 'Times New Roman', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/* line 214, ../sass/main.scss */
+.restaurant-list__item__basic__logo {
+  position: absolute;
+  top: -18px;
+  right: 0;
+  padding: 22px 0 0 20px;
+}
+
+/* line 221, ../sass/main.scss */
+.restaurant-list__item__basic__logo img {
+  max-width: 140px;
+  max-height: 60px;
+}
+
+/* line 226, ../sass/main.scss */
+.restaurant-stars {
+  padding-top: 3px;
+}
+
+/* line 230, ../sass/main.scss */
+.restaurant-list__item_promo .restaurant-list__item__info {
+  clear: both;
+  margin-left: 0;
+}
+
+/* line 235, ../sass/main.scss */
+.restaurant-list__item__info li {
+  margin-top: 5px;
+}
+
+/* line 239, ../sass/main.scss */
+.restaurant-list__item__info li:first-child {
+  margin-top: 0;
+}
+
+/* line 243, ../sass/main.scss */
+.restaurant-list__item__info a, .restaurant-list__item__info span {
+  color: #8f7763;
+}
+
+/* line 247, ../sass/main.scss */
+.restaurant-list__item__image {
+  overflow: hidden;
+  padding-left: 2.564102564102564%;
+  padding-top: 6px;
+}
+@media (max-width: 767px) {
+  /* line 247, ../sass/main.scss */
+  .restaurant-list__item__image {
+    padding: 15px 0 0 0;
+  }
+}
+
+/* line 257, ../sass/main.scss */
+.restaurant-list__item__image img {
+  display: block;
+  margin-top: 10px;
+  width: 100%;
+}
+
+/* line 263, ../sass/main.scss */
+.restaurant-list__item__image img:first-child {
+  margin-top: 0;
+}
+
+/* line 267, ../sass/main.scss */
 .your-order {
   border: 0;
   width: 100%;
@@ -220,44 +336,44 @@ a {
   font-size: 13px;
 }
 
-/* line 179, ../sass/main.scss */
+/* line 275, ../sass/main.scss */
 .your-order, .your-order__restaurant {
   background: #FFFFD0;
   text-align: left;
 }
 
-/* line 184, ../sass/main.scss */
+/* line 280, ../sass/main.scss */
 .your-order__restaurant {
   margin: 0;
   padding: 15px;
 }
 
-/* line 189, ../sass/main.scss */
+/* line 285, ../sass/main.scss */
 .your-order__restaurant h2 {
   margin: 0;
 }
 
-/* line 193, ../sass/main.scss */
+/* line 289, ../sass/main.scss */
 .your-order tr {
   vertical-align: top;
 }
 
-/* line 197, ../sass/main.scss */
+/* line 293, ../sass/main.scss */
 .your-order__item__index, .your-order__item__name, .your-order__item__price, .your-order__item__delete, .your-order__item__change, .amount-counter {
   padding: 15px 0 15px 10px;
 }
 
-/* line 201, ../sass/main.scss */
+/* line 297, ../sass/main.scss */
 .your-order__item__delete {
   padding-right: 10px;
 }
 
-/* line 205, ../sass/main.scss */
+/* line 301, ../sass/main.scss */
 .your-order__item {
   border-bottom: 1px dotted #cccccc;
 }
 
-/* line 209, ../sass/main.scss */
+/* line 305, ../sass/main.scss */
 .your-order__item__index span {
   border: 1px solid #cccccc;
   background: white;
@@ -267,24 +383,24 @@ a {
   vertical-align: middle;
 }
 
-/* line 218, ../sass/main.scss */
+/* line 314, ../sass/main.scss */
 .amount-counter {
   text-align: center;
 }
 
-/* line 222, ../sass/main.scss */
+/* line 318, ../sass/main.scss */
 .your-order__item__name p {
   margin: 0;
 }
 
-/* line 226, ../sass/main.scss */
+/* line 322, ../sass/main.scss */
 .your-order__item__addition {
   color: #795337;
   font-style: italic;
   margin: 0;
 }
 
-/* line 232, ../sass/main.scss */
+/* line 328, ../sass/main.scss */
 .your-order__item__delete span {
   position: relative;
   display: inline-block;
@@ -298,19 +414,19 @@ a {
   line-height: 1.4;
 }
 
-/* line 245, ../sass/main.scss */
+/* line 341, ../sass/main.scss */
 .your-order__item__change .action-link {
   color: #5d5043;
 }
 
-/* line 249, ../sass/main.scss */
+/* line 345, ../sass/main.scss */
 .total-amount {
   margin: 30px 0;
   border-bottom: 1px dotted #4A3E33;
   font-size: 0;
 }
 
-/* line 255, ../sass/main.scss */
+/* line 351, ../sass/main.scss */
 .total-amount__total, .total-amount__price {
   display: inline-block;
   position: relative;
@@ -320,129 +436,13 @@ a {
   font-family: 'Georgia', 'Times New Roman', sans-serif;
 }
 
-/* line 264, ../sass/main.scss */
+/* line 360, ../sass/main.scss */
 .total-amount__price {
   text-align: right;
 }
 
-/* line 268, ../sass/main.scss */
-.restaurant-stars span {
-  width: 13px;
-  height: 12px;
-  position: relative;
-  display: inline-block;
-  vertical-align: middle;
-}
-
-/* line 276, ../sass/main.scss */
-.restaurant-stars_point {
-  background: url("../img/tmp/rest-star.png") no-repeat 0 -12px;
-}
-
-/* line 280, ../sass/main.scss */
-.restaurant-stars_zero {
-  background: url("../img/tmp/rest-star.png") no-repeat 0 0;
-}
-
-/* line 284, ../sass/main.scss */
-.restaurant-list__item {
-  padding-bottom: 15px;
-  margin-bottom: 15px;
-  border-bottom: 1px dotted #8f7763;
-}
-
-/* line 290, ../sass/main.scss */
-.restaurant-list__item_promo .restaurant-list__item__content {
-  position: relative;
-  border-left: 5px solid #F4521A;
-  padding: 15px 0 15px 15px;
-}
-
-/* line 296, ../sass/main.scss */
-.restaurant-list__item__content {
-  padding: 0 0 0 5px;
-}
-
-/* line 300, ../sass/main.scss */
-.restaurant-list__item__basic {
-  position: relative;
-  margin-bottom: 35px;
-}
-
-/* line 305, ../sass/main.scss */
-.restaurant-list__item__basic__name {
-  font-family: 'Georgia', 'Times New Roman', sans-serif;
-  font-size: 14px;
-  font-weight: bold;
-}
-
-/* line 311, ../sass/main.scss */
-.restaurant-list__item__basic__logo {
-  position: absolute;
-  top: -18px;
-  right: 0;
-  padding: 22px 0 0 20px;
-}
-
-/* line 318, ../sass/main.scss */
-.restaurant-list__item__basic__logo img {
-  max-width: 140px;
-  max-height: 60px;
-}
-
-/* line 323, ../sass/main.scss */
-.restaurant-stars {
-  padding-top: 3px;
-}
-
-/* line 327, ../sass/main.scss */
-.restaurant-list__item_promo .restaurant-list__item__info {
-  clear: both;
-  margin-left: 0;
-}
-
-/* line 332, ../sass/main.scss */
-.restaurant-list__item__info li {
-  margin-top: 5px;
-}
-
-/* line 336, ../sass/main.scss */
-.restaurant-list__item__info li:first-child {
-  margin-top: 0;
-}
-
-/* line 340, ../sass/main.scss */
-.restaurant-list__item__info a, .restaurant-list__item__info span {
-  color: #8f7763;
-}
-
-/* line 344, ../sass/main.scss */
-.restaurant-list__item__image {
-  overflow: hidden;
-  padding-left: 2.564102564102564%;
-  padding-top: 6px;
-}
-@media (max-width: 767px) {
-  /* line 344, ../sass/main.scss */
-  .restaurant-list__item__image {
-    padding: 15px 0 0 0;
-  }
-}
-
-/* line 354, ../sass/main.scss */
-.restaurant-list__item__image img {
-  display: block;
-  margin-top: 10px;
-  width: 100%;
-}
-
-/* line 360, ../sass/main.scss */
-.restaurant-list__item__image img:first-child {
-  margin-top: 0;
-}
-
 /* line 364, ../sass/main.scss */
-.page-sections_receipt div {
+.page-sections_receipt div, .connection-page div, .franchising-page div {
   margin-bottom: 30px;
 }
 
@@ -779,7 +779,7 @@ input.index-form-search-input {
   border-radius: 10px;
   cursor: pointer;
   border: 1px solid #E73B23;
-  padding: 2px 14px 5px;
+  padding: 4px 14px;
   font-size: 20px;
   line-height: 20px;
   overflow: hidden;
