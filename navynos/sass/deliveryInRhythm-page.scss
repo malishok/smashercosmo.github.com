@@ -48,6 +48,7 @@ article p {
     width: 40%;
     display: block;
     font-style: italic;
+    margin-bottom: 30px;
 }
 
 .article-previous {
@@ -57,6 +58,12 @@ article p {
 .article-next {
     float: right;
     text-align: right;
+}
+
+.menu-blog-sections {
+    display: block;
+    float: none;
+    clear: both;
 }
 
 .menu-blog-sections__title {

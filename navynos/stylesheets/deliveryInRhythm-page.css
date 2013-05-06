@@ -1015,20 +1015,28 @@ article p {
   width: 40%;
   display: block;
   font-style: italic;
+  margin-bottom: 30px;
 }
 
-/* line 53, ../sass/deliveryInRhythm-page.scss */
+/* line 54, ../sass/deliveryInRhythm-page.scss */
 .article-previous {
   float: left;
 }
 
-/* line 57, ../sass/deliveryInRhythm-page.scss */
+/* line 58, ../sass/deliveryInRhythm-page.scss */
 .article-next {
   float: right;
   text-align: right;
 }
 
-/* line 62, ../sass/deliveryInRhythm-page.scss */
+/* line 63, ../sass/deliveryInRhythm-page.scss */
+.menu-blog-sections {
+  display: block;
+  float: none;
+  clear: both;
+}
+
+/* line 69, ../sass/deliveryInRhythm-page.scss */
 .menu-blog-sections__title {
   font-family: 'Times New Roman', sans-serif;
   font-size: 24px;
@@ -1036,18 +1044,18 @@ article p {
   text-decoration: none;
 }
 
-/* line 69, ../sass/deliveryInRhythm-page.scss */
+/* line 76, ../sass/deliveryInRhythm-page.scss */
 .new-posts, .records, .rubrics, .meta {
   margin-bottom: 20px;
 }
 
-/* line 73, ../sass/deliveryInRhythm-page.scss */
+/* line 80, ../sass/deliveryInRhythm-page.scss */
 .new-posts li, .records li, .rubrics li, .meta li {
   padding-left: 10px;
   margin-bottom: 5px;
 }
 
-/* line 78, ../sass/deliveryInRhythm-page.scss */
+/* line 85, ../sass/deliveryInRhythm-page.scss */
 .new-posts li a, .records li a, .rubrics li a, .meta li a {
   color: #444342;
 }
