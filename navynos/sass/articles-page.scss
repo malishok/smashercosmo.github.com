@@ -3,8 +3,12 @@
 
 /* ------------------------------------------------------ RESTAURANT PAGE START --------------------------------------------------- */
 
-.deliveryInRhythm-page .span8 {
+.deliveryInRhythm-page .span8, .articles-page .span8 {
     padding-right: 30px;
+}
+
+article {
+    margin-bottom: 30px;
 }
 
 article h1 {
@@ -23,7 +27,7 @@ article h1 {
 
 .article-image {
     border: 4px solid #ff4b12;
-    border-radius: 50px;
+    border-radius: 50%;
     margin: 50px 30px 50px 0;
     float: left;
 }
@@ -85,4 +89,28 @@ article p {
 
 .new-posts li a, .records li a, .rubrics li a, .meta li a {
     color: #444342;
+}
+
+/*----------Articles-page---------*/
+
+.read-article {
+    font-style: italic;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Times New Roman', sans-serif;
+}
+
+.articles-page .article-tags {
+    clear: both;
+    display: block;
+}
+
+.articles-page h1 {
+    font-size: 24px;
+}
+
+.article-tags_border {
+    margin: 0 5px;
+    width: 0;
+    border-left: 1px solid;
 }

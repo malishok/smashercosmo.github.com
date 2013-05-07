@@ -961,37 +961,42 @@ input.index-form-search-input {
 }
 
 /* ------------------------------------------------------ RESTAURANT PAGE START --------------------------------------------------- */
-/* line 6, ../sass/deliveryInRhythm-page.scss */
-.deliveryInRhythm-page .span8 {
+/* line 6, ../sass/articles-page.scss */
+.deliveryInRhythm-page .span8, .articles-page .span8 {
   padding-right: 30px;
 }
 
-/* line 10, ../sass/deliveryInRhythm-page.scss */
+/* line 10, ../sass/articles-page.scss */
+article {
+  margin-bottom: 30px;
+}
+
+/* line 14, ../sass/articles-page.scss */
 article h1 {
   margin-bottom: 10px;
 }
 
-/* line 14, ../sass/deliveryInRhythm-page.scss */
+/* line 18, ../sass/articles-page.scss */
 .article-info, .article-tags {
   color: #747372;
   font-size: 12px;
   margin-bottom: 20px;
 }
 
-/* line 20, ../sass/deliveryInRhythm-page.scss */
+/* line 24, ../sass/articles-page.scss */
 .article-tags {
   margin-top: 40px;
 }
 
-/* line 24, ../sass/deliveryInRhythm-page.scss */
+/* line 28, ../sass/articles-page.scss */
 .article-image {
   border: 4px solid #ff4b12;
-  border-radius: 50px;
+  border-radius: 50%;
   margin: 50px 30px 50px 0;
   float: left;
 }
 
-/* line 31, ../sass/deliveryInRhythm-page.scss */
+/* line 35, ../sass/articles-page.scss */
 article p, .speach {
   font-family: 'Times New Roman', sans-serif;
   font-size: 18px;
@@ -999,19 +1004,19 @@ article p, .speach {
   line-height: 1.3;
 }
 
-/* line 38, ../sass/deliveryInRhythm-page.scss */
+/* line 42, ../sass/articles-page.scss */
 article p {
   margin-bottom: 20px;
 }
 
-/* line 42, ../sass/deliveryInRhythm-page.scss */
+/* line 46, ../sass/articles-page.scss */
 .speach {
   font-style: italic;
   border: 0;
   padding-left: 25px;
 }
 
-/* line 48, ../sass/deliveryInRhythm-page.scss */
+/* line 52, ../sass/articles-page.scss */
 .article-previous, .article-next {
   width: 40%;
   display: block;
@@ -1019,25 +1024,25 @@ article p {
   margin-bottom: 30px;
 }
 
-/* line 55, ../sass/deliveryInRhythm-page.scss */
+/* line 59, ../sass/articles-page.scss */
 .article-previous {
   float: left;
 }
 
-/* line 59, ../sass/deliveryInRhythm-page.scss */
+/* line 63, ../sass/articles-page.scss */
 .article-next {
   float: right;
   text-align: right;
 }
 
-/* line 64, ../sass/deliveryInRhythm-page.scss */
+/* line 68, ../sass/articles-page.scss */
 .menu-blog-sections {
   display: block;
   float: none;
   clear: both;
 }
 
-/* line 70, ../sass/deliveryInRhythm-page.scss */
+/* line 74, ../sass/articles-page.scss */
 .menu-blog-sections__title {
   font-family: 'Times New Roman', sans-serif;
   font-size: 24px;
@@ -1045,18 +1050,45 @@ article p {
   text-decoration: none;
 }
 
-/* line 77, ../sass/deliveryInRhythm-page.scss */
+/* line 81, ../sass/articles-page.scss */
 .new-posts, .records, .rubrics, .meta {
   margin-bottom: 20px;
 }
 
-/* line 81, ../sass/deliveryInRhythm-page.scss */
+/* line 85, ../sass/articles-page.scss */
 .new-posts li, .records li, .rubrics li, .meta li {
   padding-left: 10px;
   margin-bottom: 5px;
 }
 
-/* line 86, ../sass/deliveryInRhythm-page.scss */
+/* line 90, ../sass/articles-page.scss */
 .new-posts li a, .records li a, .rubrics li a, .meta li a {
   color: #444342;
+}
+
+/*----------Articles-page---------*/
+/* line 96, ../sass/articles-page.scss */
+.read-article {
+  font-style: italic;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Times New Roman', sans-serif;
+}
+
+/* line 103, ../sass/articles-page.scss */
+.articles-page .article-tags {
+  clear: both;
+  display: block;
+}
+
+/* line 108, ../sass/articles-page.scss */
+.articles-page h1 {
+  font-size: 24px;
+}
+
+/* line 112, ../sass/articles-page.scss */
+.article-tags_border {
+  margin: 0 5px;
+  width: 0;
+  border-left: 1px solid;
 }
