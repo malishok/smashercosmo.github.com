@@ -985,13 +985,11 @@ article h1 {
 
 /* line 24, ../sass/deliveryInRhythm-page.scss */
 .article-image {
-  border: 4px solid #ff4b12;
-  border-radius: 50px;
   margin: 50px 30px 50px 0;
   float: left;
 }
 
-/* line 31, ../sass/deliveryInRhythm-page.scss */
+/* line 29, ../sass/deliveryInRhythm-page.scss */
 article p, .speach {
   font-family: 'Times New Roman', sans-serif;
   font-size: 18px;
@@ -999,19 +997,19 @@ article p, .speach {
   line-height: 1.3;
 }
 
-/* line 38, ../sass/deliveryInRhythm-page.scss */
+/* line 36, ../sass/deliveryInRhythm-page.scss */
 article p {
   margin-bottom: 20px;
 }
 
-/* line 42, ../sass/deliveryInRhythm-page.scss */
+/* line 40, ../sass/deliveryInRhythm-page.scss */
 .speach {
   font-style: italic;
   border: 0;
   padding-left: 25px;
 }
 
-/* line 48, ../sass/deliveryInRhythm-page.scss */
+/* line 46, ../sass/deliveryInRhythm-page.scss */
 .article-previous, .article-next {
   width: 40%;
   display: block;
@@ -1019,25 +1017,25 @@ article p {
   margin-bottom: 30px;
 }
 
-/* line 55, ../sass/deliveryInRhythm-page.scss */
+/* line 53, ../sass/deliveryInRhythm-page.scss */
 .article-previous {
   float: left;
 }
 
-/* line 59, ../sass/deliveryInRhythm-page.scss */
+/* line 57, ../sass/deliveryInRhythm-page.scss */
 .article-next {
   float: right;
   text-align: right;
 }
 
-/* line 64, ../sass/deliveryInRhythm-page.scss */
+/* line 62, ../sass/deliveryInRhythm-page.scss */
 .menu-blog-sections {
   display: block;
   float: none;
   clear: both;
 }
 
-/* line 70, ../sass/deliveryInRhythm-page.scss */
+/* line 68, ../sass/deliveryInRhythm-page.scss */
 .menu-blog-sections__title {
   font-family: 'Times New Roman', sans-serif;
   font-size: 24px;
@@ -1045,18 +1043,18 @@ article p {
   text-decoration: none;
 }
 
-/* line 77, ../sass/deliveryInRhythm-page.scss */
+/* line 75, ../sass/deliveryInRhythm-page.scss */
 .new-posts, .records, .rubrics, .meta {
   margin-bottom: 20px;
 }
 
-/* line 81, ../sass/deliveryInRhythm-page.scss */
+/* line 79, ../sass/deliveryInRhythm-page.scss */
 .new-posts li, .records li, .rubrics li, .meta li {
   padding-left: 10px;
   margin-bottom: 5px;
 }
 
-/* line 86, ../sass/deliveryInRhythm-page.scss */
+/* line 84, ../sass/deliveryInRhythm-page.scss */
 .new-posts li a, .records li a, .rubrics li a, .meta li a {
   color: #444342;
 }
