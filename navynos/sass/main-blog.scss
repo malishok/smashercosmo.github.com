@@ -10,12 +10,20 @@
     height: 235px;
     right: 19%;
     top: -45px;
+    
+    @include respond-to(medium-screen) {
+           display: none;
+       }
 }
 
 .top-info {
     text-transform: uppercase;
     text-align: center;
     margin: 10px auto 20px;
+    
+/*    @include respond-to(medium-screen) {
+        margin-bottom: 100px;
+    }*/
 }
 
 .border-line {
@@ -61,6 +69,9 @@ article h1 {
 .article-image {
     margin: 50px 30px 50px 0;
     float: left;
+    @include respond-to(small-screen) {
+           margin: 5px 30px 20px 0;
+       }
 }
 
 article p, .speach {
@@ -121,3 +132,4 @@ article p {
 .new-posts li a, .records li a, .rubrics li a, .meta li a {
     color: #444342;
 }
+

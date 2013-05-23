@@ -415,7 +415,11 @@ a {
   padding-top: 30px;
 }
 
-.header-logo {
+.brand {
+    text-decoration: none;
+}
+
+.header-logo, .footer-logo_articles-page {
   background: url('../img/logo.svg') left top no-repeat;
 
   @include respond-to(medium-screen) {
